@@ -1,0 +1,117 @@
+<!--컴퓨터학과 / 20200990 / 윤상아 -->
+<!-- "Microsoft Edge"에 최적화-->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name-"viewport" content="width=device-width, initial-scale=1.0">
+    <meta hyyp-equiv="X-UA-Compatible" content="ie=edge">
+</head>
+
+<style>
+    * {
+        margin:0 auto;
+    }
+    body{
+        display:flex;  
+        justify-content: center;
+    }
+    table {
+            border-collapse:collapse; <!--문제조건 : 테이블 테두리 단일 테두리-->
+            text-align:center;
+    }
+    table,td,th {
+            border: solid 1px black; <!--태그: 중복 사용 가능/ 콤마(,)로 나열해 일괄 적용 가능-->
+            
+    }
+    caption {
+        margin: 20px;
+        font-size:25px;
+        font-weight:bold;
+    }
+    
+    th,td {
+        text-align:center;
+        width:90px;
+        height:50px;
+    }
+    th{
+        font-size:20px;
+        font-weight:bold;
+    }
+    td {
+        font-size:13px;
+    }
+    .necessary {
+            background-color:#ffe08c;
+    }
+    .selective {
+             background-color:#b2ccff;
+    }
+    .liberal {
+            background-color:#bdbdbd;
+    }     
+</style>
+<body>
+   <div>
+    <form>
+    <table border="1">
+       <caption>강의 시간표</caption>
+       <thead>
+            <tr>
+            <th>2학년</th>
+            <th>월</th>
+            <th>화</th>
+            <th>수</th>
+            <th>목</th>
+            <th>금</th>
+            </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <th>1</th>
+            <td></td>
+            <td rowspan="2" class="necessary">자료구조</td>
+            <td class="necessary">네트워크</td>
+            <td></td>
+            <td class="necessary">네트워크</td>
+        </tr>
+        <tr>
+           <th>2</th>
+            <td rowspan="2" class="necessary">데이터베이스개론</td>
+            <td></td>
+            <td></td>
+            <td class="selective">운영체제</td>
+        </tr>
+        <tr>
+            <th>3</th>
+            <td></td>
+            <td class="selective">운영체제</td>
+            <td></td>
+            <td rowspan="4">사회봉사</td>
+        </tr>
+        <tr>
+            <th>4</th>
+            <td rowspan="2" class="selective">웹프로그래밍</td>
+            <td class="liberal">창의와감성</td>
+            <td></td>
+            <td class="liberal">창의와감성</td>
+        </tr>
+        <tr>
+            <th>5</th>
+            <td></td>
+            <td></td>
+            <td rowspan="2" class="selective">소프트웨어프로그래밍</td>
+        </tr>
+        <tr>
+            <th>6</th>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        </tbody>
+    </table>  
+    </form>  
+    </div>
+</body>
+</html>

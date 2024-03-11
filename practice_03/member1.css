@@ -1,0 +1,22 @@
+header img {
+    margin: 0 auto;
+    display: block;
+}
+h1 {
+	text-align: center;	
+}
+
+.main {
+	margin: 0 auto;
+	border-top: 2px solid #B6B6B6;
+	margin-top: 20px;
+}
+
+table {
+    margin: 0 auto;
+    padding: 0px 0px;
+}
+
+.yellow {
+    background-color: #ffff99;
+}

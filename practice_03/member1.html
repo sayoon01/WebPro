@@ -1,0 +1,61 @@
+<!--컴퓨터학과 / 20200990 / 윤상아 -->
+<!-- "Microsoft Edge"에 최적화-->
+<!DOCTYPE html>
+<html> 
+    <head>
+        <meta charset="UTF-8">
+        <meta name ="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+       <title>이클래스 로그인</title>
+       <link rel="stylesheet" href="member1.css">
+    </head>
+   
+    <body>    
+        <header>
+            <img src="image/eclass_title.jpg">
+    </header>
+            
+    <section>
+		<h1>로그인</h1>
+		<div class="main">
+			<form name="frm1">
+				<table>
+					<tr>
+						<th rowspan="5"><img src="image/eclass_logo.png" ></th>
+						<th colspan="2">회원님의 아이디와 비밀번호를 정확히 입력하세요.</th>
+					</tr>
+					<tr>
+						<td></td>
+						<td>
+							<select name="type">
+								<option value="학부생">학부생</option>
+								<option value="대학생">대학생</option>
+								<option value="대학원생">대학원생</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<th>아이디</th>
+						<td>
+							<input type="text" name="id" maxlength="15" size="15" class="yellow">
+						</td>
+					</tr>
+					<tr>
+						<th>비밀번호</th>
+						<td>
+							<input type="password" name="pwd" maxlength="15" size="15" class="yellow">
+						</td>
+					</tr>
+					<tr>
+						<td colspan="2">
+							<input type="button" value="로그인" >
+							<input type="button" value="가입하기" onclick="document.location='member2.html'">
+						</td>
+					</tr>
+				</table>
+			</form>
+		</div>
+	</section>
+    </body>
+</html>
+

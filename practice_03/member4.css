@@ -1,0 +1,17 @@
+table{
+    margin: 0 auto;
+    text-align: center; 
+    width: 700px;
+    height: 400px;
+    margin-top: 30px;
+}
+.orange1 {
+    background-color : #ffdab9;
+}
+.orange2 {
+    background-color : #ffefd5;
+}
+img{
+    margin: 0 auto;
+    display: block;
+}

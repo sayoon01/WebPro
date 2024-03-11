@@ -1,0 +1,27 @@
+table { 
+    margin: 0 auto;
+    border-collapse:collapse;      
+}
+table, tr, td{
+    border: solid 1px black;
+    padding: 3px;
+}
+       
+th {
+        background-color:#ececec;
+        text-align:center;
+        font-weight:bold;
+ }
+ textarea {
+        overflow-y:scroll; <!-- scroll 만들기-->
+}
+input.imageAlign {
+           vertical-align:middle; <!--클래스 CSS 선언이 먼저 , 재활용 용이 , 온점(.)을 붙여 정의함-->
+}
+.eclass {
+    margin: 0 auto;
+    display: block;
+}
+img {
+    margin: 0 auto;   
+}
